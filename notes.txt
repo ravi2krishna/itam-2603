@@ -1,0 +1,62 @@
+Class - 1
+==========
+
+    -> IT Asset Management 
+
+        -> Our Goal Is to Manage Organizations Assets in ServiceNow Correct Way and Implement Best Practices.
+
+        -> You Need To Manage Asset Life Cycle Effectively 
+
+        -> Know What's The Difference Between Asset and Configuration Item (CI) 
+
+            -> ITOM Session, We Get Full Understanding Of Configuration Items (CI's) 
+
+            -> Linking Assets and Configuration Item (CI) 
+
+        -> How To Fulfill Asset Requests 
+
+        -> How To Create Dashboards 
+
+    
+    -> IT Asset Management is the process of Tracking and Managing an Organizations Technology Assets
+    throughout their Life cycle
+
+        -> Assets Can Include Computers, Laptops, Servers, Routers, Softwares like Photoshop etc 
+
+        -> If Implemented Properly ITAM helps you control costs, avoid unnecessary licenses, security(audit) 
+        and ensure people have the equipment they need.
+
+
+    -> As an IT Asset Manager, you need to take care of 
+
+        -> Reviewing Asset Requests and Checking Approvals 
+
+        -> Recording Purchases and Receiving New Equipment
+
+        -> Assigning Assets To Employees, Locations, Departments 
+
+        -> Updating Assets Details, Asset Status 
+
+        -> Tracking Transfer, Repairs, Returns and Retirements 
+
+        -> Comparing Assets Records With Configuration Data 
+
+        -> Check Software Installs and Licenses Usage 
+
+        -> Following Up On Missing, Overdue and Unreturned Equipment 
+
+        -> Creating Reports On Asset Counts, Cost etc 
+
+    
+    -> We Need To Implement Below In ServiceNow Platform 
+
+        -> https://www.smartsheet.com/sites/default/files/2023-01/IC-Asset-Inventory-Template-Revised.png
+
+        
+
+
+
+
+
+
+
