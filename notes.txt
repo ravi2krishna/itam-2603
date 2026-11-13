@@ -54,6 +54,183 @@ Class - 1
 
         
 
+Class - 2
+==========
+
+    -> Hardware Asset Management (HAM)
+
+        -> Hardware Asset Management (HAM) is the Management Of Organizations Physical Assets. 
+
+            -> From When An Asset Is Requested 
+
+                -> Then Procuring It 
+
+                    -> Then Eventually Being Disposed Of 
+
+            -> Without HAM In Place, 
+            
+                -> it would be hard to figure out What Assets The Company Owns 
+
+                -> Where the assets are located 
+
+                -> Which assets are supporting by business service or system 
+
+                -> We would have security concerns, who is using this asset from accountability standpoint 
+
+            
+    -> Real World Scenario 
+
+        -> Person John (New Employee), Joining ABC Tech 
+
+        -> Employee John Needs Laptop To Do His Work 
+
+        -> ABC Tech, is using ServiceNow To Manage Hardware Assets 
+
+            -> First Stage Is "Planning"
+
+                -> The First Stage Of Asset Life Cycle is Planning 
+
+                -> John Is Joining On 1st Dec 2026
+
+                -> HR Creates Onboarding Requirement
+
+                        New Employee 
+                            |
+                           John
+                            |
+                        Needs Laptop 
+
+                -> Now IT Asset Teams, Need To Fullfil the Requirement 
+
+                    -> Now IT Asset Team Asks 
+
+                        -> Do We Actually Need To Purchase New Laptop ? 
+
+                        -> IT Asset Team Checks 
+
+                            -> Do we have any spare laptop Which is unused ?
+
+                                -> Yes -> Reuse it 
+
+                                -> No 
+
+                                    -> Should We Purchase One 
+                                                or 
+                                    -> Should We Lease/Rent One 
+
+                            -> Say ABC Tech Has No Suitable Spare Laptop 
+
+                            -> So Decision From IT Asset Team is 
+
+                                -> Let's Purchase New Dell Laptop 
+
+                -> NOTE: Planning is not about owning the Laptop, It's about What Hardware 
+                Do we need and how we are going to Fullfil this need ?
+
+
+            -> Second Stage Is "Acquisition"     
+
+                -> Acquiring Assets is the Stage When the "Procurement Department" 
+                goes through a formal process to acquire new assets 
+
+                    -> NOTE: Which is Achieved Using "Purchase Order - PO"
+
+                -> ABC Tech 
+                      |
+                   IT Vendor 
+                      |
+                 Purchase Order 
+                      |
+                  Dell Laptop
+                      |
+                   ABC Tech   
+
+                
+                -> NOTE: When IT Asset Team Receives Assets, they enter into Asset Repository 
+
+
+                -> For Example 
+
+                    Model: Dell Latitude 5500 
+                    Quantity: 1
+                    Cost: ₹85000
+                    Vendor: XYZ Computers 
+
+                -> The Laptop Arrived, Now Asset Management Team Records It 
+
+                    -> For Example 
+
+                        Asset Tag: AST00001
+                        Serial Number: 987654567899876 
+                        Model: Dell Latitude 5500 
+                        Cost: ₹85000
+                        State: In Stock 
+                        Stockrooms: Hyderabad - SEZ-01-06
+
+                -> Does John(Employee) Has Laptop ?
+
+                    -> No, the Company Owns The Laptop and it's in Hyderabad Stockroom 
+
+                 
+
+            -> Third Stage Is "Deployment"
+
+                -> In This Stage Of Lifecycle is where Newly Purchased Assets or Existing Assets 
+                are Deployed For Operation 
+
+                -> This is typically initiated By Service Request From End User 
+
+                -> John's Joining Date Arrives 
+
+                    -> IT Receives Request 
+
+                        -> Prepare Laptop For John 
+
+                        -> IT Team Takes The Laptop From Hyderabad Stockroom 
+
+                        -> Configuration of Laptop 
+
+                            -> Installing System Softwares and Organization Specific Tools etc 
+
+                        -> Handover Laptop To John (Employee)
+
+                -> Now Asset Team, Records Changes 
+
+                    -> Asset Tag: AST00001
+                    -> Assigned To: John 
+                    -> State: In Use 
+                    -> Location: Hyderabad 
+
+                -> Who Owns Laptop ?
+
+                    -> ABC Tech
+
+                -> Who Uses Laptop ?
+
+                    -> John 
+
+        
+            -> Fourth Stage Is "Management"
+
+
+            -> Fifth Stage Is "Disposition"
+
+            
+
+
+
+
+
+
+
+
+                
+
+
+
+                                    
+
+
 
 
 
