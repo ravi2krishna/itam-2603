@@ -217,6 +217,106 @@ Class - 2
 
             
 
+Class - 3
+==========
+
+    -> ITAM Lifecycle 
+
+        -> Planning - Do We Need Asset ? 
+
+        -> Acquisition - How Do We Get Asset ?
+
+        -> Deployment - Who Gets Asset ? 
+
+        -> Management - What Is Happening To Asset ? 
+
+        -> Retirement - What Do We Do With Asset ? 
+
+    
+    
+    -> Asset and Configuration Item(CI) Connection 
+
+        -> In ITAM Context
+        
+            -> Company -> Owns -> Hardware Asset (AST00001) -> Assigned -> Ravi 
+
+            -> Asset Record - Ownership / Cost / Purchase / Warranty (Lifecycle)
+
+        -> In ITOM Context 
+
+            -> ITOM Service Discovery -> Laptop Detected (Auto) -> CI Record -> CMDB 
+
+            -> CI Record - CPU Size / Disk Size / OS Information / Operational Data (Technical Details)
+
+
+    -> HAM is not just Keeping the list of laptops 
+
+        -> What Hardware Company Owns 
+
+        -> where Is It 
+
+        -> Who Is Using It 
+
+        -> How Much It Costed 
+
+        -> What Condition Is It In 
+
+        -> What Should Happen To It, Throughout It's Life 
+
+
+    -> SAM (Software Asset Management)
+
+
+        -> SAM Manage the Lifecycle, consumption, compliance and optimization Of Softwares 
+
+            -> ABC Tech Buy 100 Microsoft 365 Licenses 
+
+                            |
+                    Software Entitlement 
+                            |
+                    100 Licenses Available 
+                            |
+                    80 Employees Assigned 
+                            |
+                    75 Actively Using It 
+                            |
+                    5 Unused Licenses
+                            |
+                    Reclaim Unused Licenses
+                            |
+                    Optimize Subscriptions
+
+
+    -> Starting Asset Management With Hardware Models 
+
+    -> Hardware Models
+
+        -> Hardware Model is ServiceNow record that represents "Specific Hardware Product"
+        and stores the Information that is "Common" To the Hardware Assets Created From That Model.
+
+        -> A Hardware Asset represents an Individual Physical Item, belonging To Hardware Model.
+
+        -> Typical Information Stored At Hardware Model Level is Manufacturer, Model Category, Weight, description etc  
+
+        -> NOTE: Relationship Between Hardware Model and Hardware Assets is "One To Many", meaning 
+        You Can Have Multiple Hardware Assets For Any Given Hardware Model
+
+
+                                Hardware Model - Lenovo-Z9-Workstation 
+                                    Manufacturer - Lenovo
+                                    Model - Z9 
+                                    Description - An Entry Level Lenovo Workstation
+
+
+            HW - Asset - 1                      HW - Asset - 2          ......             HW - Asset - 30 
+                Asset Tag - L10001                  Asset Tag - L10002                          Asset Tag - L10030
+                Assigned To - John                  Assigned To - Mike                          Assigned To - Abel 
+                            
+
+
+
+
+
 
 
 
