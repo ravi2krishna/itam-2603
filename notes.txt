@@ -319,6 +319,16 @@ Class - 4
     -> Hardware Models LAB Implementation 
 
 
+Class - 5
+==========
+
+    -> Hardware Assets 
+
+        -> Any Physical Asset Like Computer, Mobile Phone, Printer etc 
+        is Hardware Asset. 
+
+        -> NOTE: All Fields Of Hardware Assets 
+        https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/asset-record-fields.html
 
 
 
