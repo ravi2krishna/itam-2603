@@ -331,6 +331,69 @@ Class - 5
         https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/asset-record-fields.html
 
 
+Class - 6
+==========
+
+    -> Consumables 
+
+        -> Consumables are better Known as "Accessories"
+
+        -> Consumables are the assets that are not required to be tracked while in use 
+        due to their Low Value and Ease Of Replacement
+
+        -> Consumables are tracked by Quantity Level, while they are in stock 
+        and are no longer tracked once they are deployed. 
+
+        -> Consumables Consists Of Assets Such As Cables, Adapters, Earphones, 
+        Keyboards, Mouse, Webcams etc 
+
+        -> Since Consumables are not tracked after deployment, it is not necessary 
+        to do tagging for Consumables.
+
+        -> NOTE: Consumables should be tracked when they are Purchased and kept in 
+        Inventory, this ensures all asset managers have visibility over all the 
+        stock of Consumables 
+
+    -> To Create Consumables We Need Consumable Models. 
+
+        -> Hardware Model -> Hardware Asset 
+
+        -> Consumable Model -> Consumable Asset 
+
+        -> A consumable model in ServiceNow defines low-cost, bulk-managed items 
+        tracked by quantity rather than individual serial numbers or asset tags. 
+        Common examples include keyboards, mice, cables, adapters, 
+        printer cartridges, and filters.
+
+        -> Created Consumable Model and Then Create Consumable Asset From Model 
+
+    
+    -> Configuration Items 
+
+        -> A Configuration Item also known as CI, is an component that is 
+        managed in order to deliver an IT Service. 
+
+        -> A Configuration Item in servicenow is a record within the 
+        Configuration Management Data Base (CMDB), representing 
+        "Any Manageable IT Component" such as Computer, Server, 
+        Application, Application Service etc 
+
+        -> Tracking Configuration Items is must for any Organization, as it 
+        allows you to track upstream and downstream dependencies that 
+        support your IT Services.
+
+        
+
+
+
+
+
+
+
+
+    
+
+
 
 
 
