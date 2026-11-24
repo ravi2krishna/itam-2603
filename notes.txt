@@ -383,6 +383,74 @@ Class - 6
         support your IT Services.
 
         
+Class - 7
+==========
+
+    -> Configuration Items 
+
+        -> Configuration Items contain all the Configuration Information
+        related to specific item, for example Configuration item of a 
+        Computer asset can include Information like Hard Disk Capacity, 
+        RAM Usage, IP Address, MAC Address, Installed Softwares etc 
+
+    -> In ServiceNow, When You Create Hardware Asset, A Configuration Item 
+    record is also created and linked with it. 
+
+        -> If a CI Class is Defined at the Model Level when Creating 
+        an Hardware Asset then a Configuration Item Will Automatically Be Created.
+
+        -> If An Asset Class is Defined at the Model Level When Creating 
+        a Configuration item, then a Hardware Asset Will be Created 
+
+
+                Asset                           Configuration Item 
+        Lenovo-Z9-Workstation      <------>     Lenovo-Z9-Workstation
+            (Asset Tag)                           (HDD-RAM-IP)
+        
+        -> NOTE: In Most Of Organizations, Configuration Items are tracked by 
+        ITOM Teams, as Configuration Items needs to be tracked to monitor 
+        and ensure "Availability Of Business Services" 
+
+        -> NOTE: IT Asset Management Team Tracks "Financial and Physical Lifecycle"
+        Of The Assets. 
+
+    
+    -> Difference Between Hardware Asset and Configuration Item 
+
+        -> An Hardware Asset is a device like Computer Or Server, which needs to 
+        be tracked due to it's Financial Value To An Organization 
+
+        -> Configuration Items Can Also Be Assets, but not Always, and these 
+        are tracked as it directly affects the business services.
+
+            -> A Configuration File is an Configuration Item, but not an Asset. 
+
+
+    -> Assets                                   -> Configuration Items 
+
+        -> Tracked For Financial Purpose            -> Tracked For Supporting Business Services
+
+        -> Tracked From Acquisition To Disposal     -> Only Tracked When It's In Use 
+
+        -> Have Parent / Child Relationship         -> Have Upstream and Downstream Dependencies 
+
+        -> Financial Value Is Assigned              -> No Financial Value Is Assigned
+
+        -> Tracked By IT Asset Team                 -> Tracked By IT Ops Team (ITOM)
+
+    
+    -> NOTE: In Order To Run Myntra Like Service (https://www.myntra.com/)
+    We Need Servers.
+
+    
+
+
+
+
+
+
+
+
 
 
 
