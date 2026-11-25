@@ -443,6 +443,49 @@ Class - 7
     We Need Servers.
 
     
+Class - 8
+==========
+
+    -> Model Categories 
+
+        -> A Model Category is a value that Categorizes Models and Assets 
+        in ServiceNow Using Common Term.
+
+        -> Categories are great for Organization Of Assets, Helps In 
+        Reporting and Filtering.
+
+        -> Without Categories it would not be easy to find the assets of
+        same type.  Categories Consists Of Computers, Servers, Racks etc 
+
+        -> NOTE: Model Categories allows you to decide whether an 
+        Configuration Item should be Automatically Created During 
+        the Creation Of Asset Or Not
+
+        -> NOTE: Not All Hardware Assets Have Configuration Item and 
+        Not All Configuration Items Have Hardware Assets 
+
+
+
+                                    Model Category 
+                                    (Computer)
+                                        |
+
+                            Hardware Model - Lenovo-Z9-Workstation 
+                                    Manufacturer - Lenovo
+                                        Model - Z9 
+                                        |
+                                        |
+                
+                HW - Asset - 1                      Configuration Item
+                Asset Tag - L10001    <-------->       Model - Z9     
+                Assigned To - John                  Operating System - Linux
+                     (ITAM)                             (ITOM)
+
+
+
+
+
+
 
 
 
