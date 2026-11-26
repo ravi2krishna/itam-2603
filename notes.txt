@@ -482,7 +482,17 @@ Class - 8
                      (ITAM)                             (ITOM)
 
 
+Class - 9
+==========
 
+    -> When You Try To Create New Model Category With A Category That Already 
+    Exists For Same CI Class, it's not allowed in servicenow. (Computer)(cmdb_ci_computer)
+
+    -> NOTE: ServiceNow Enforces Uniqueness For Categories Per CI Class,
+    So you cannot create two Categories with Same CLass.
+    A Category for CI Class (Computer) Already Exists.
+
+    
 
 
 
